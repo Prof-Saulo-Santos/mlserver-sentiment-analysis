@@ -121,6 +121,12 @@ docker compose up --build -d
 Abra o navegador e acesse:
 [http://localhost:9080](http://localhost:9080)
 
+<p align="center">
+  <img src="analisador_sentimentos_1.jpg" width="45%" alt="Tela 1 - Analisador de Sentimentos">
+  &nbsp;&nbsp;
+  <img src="analisador_sentimentos_2.jpg" width="45%" alt="Tela 2 - Analisador de Sentimentos">
+</p>
+
 ### 3. Testar pela API (V2 Protocol)
 ```bash
 curl -X POST http://localhost:9080/mlapi/v2/models/analisador-sentimentos/versions/1.0/infer \
