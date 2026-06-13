@@ -1,0 +1,2 @@
+mlserver==1.7.1
+mlserver-sklearn==1.7.1

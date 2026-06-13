@@ -1,0 +1,13 @@
+services:
+  mlserver:
+    build:
+      context: .
+      dockerfile: Dockerfile-mlserver
+    environment:
+      - MLSERVER_PARALLEL_WORKERS=0
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile-nginx
+    ports:
+      - "9080:80"
